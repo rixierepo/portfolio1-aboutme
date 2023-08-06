@@ -1,0 +1,140 @@
+/* NAVBAR SECTION */
+.nav-link {
+  margin: 0 5px;
+  font-family: 'Poppins Light', sans-serif;
+  font-size: 11px;
+
+  display: inline-block;
+  position: relative;
+  color:#29b691;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #29b691;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+/* END OF NAVBAR SECTION */
+
+
+/* OVERVIEW SECTION */
+.overviewPage{
+    font-size: 12px;
+    background-color: white;
+}
+
+.overviewDesc{
+  font-size: 12px;
+  text-align: justify;
+  font-family: 'Poppins Light', sans-serif;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.overviewImage{
+  width: 80%;
+  float: left;
+}
+
+.name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+/* END OF OVERVIEW SECTION */
+
+/* ABOUT IMAGE SECTION */
+.aboutImage{
+  width: 80%;
+  float: right;
+}
+/* END OF ABOUT IMAGE SECTION */
+
+/* EXP IMAGE SECTION */
+.expImage{
+  width: 80%;
+  float: left;
+}
+/* END OF EXP IMAGE SECTION */
+
+/* PORTFOLIO IMAGE SECTION */
+.portfolioImage{
+  width: 80%;
+  float: right;
+}
+/* END OF PORTFOLIO IMAGE SECTION */
+
+/* DESCRIPTION SECTION */
+.desc{
+  font-size: 12px;
+  text-align: justify;
+  font-family: 'Poppins Light', sans-serif;
+  font-size: 12px;
+  line-height: 1.8;
+  text-indent: 50px;
+}
+
+.descTitle{
+  font-family: 'Poppins Light', sans-serif;
+}
+/* END OF DESCRIPTION SECTION */
+
+/* EXPLORE BUTTON SECTION */
+.exploreButton {
+  font-family: 'Poppins Light', sans-serif;
+  background-color: #29b691;
+  border: none;
+  border-radius: 200px;
+  color: white;
+  padding: 16px 50px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.exploreButton:hover {
+  background-color: #ffffff;
+  color: #29b691;
+  border: solid 1px;
+  border-radius: 200px;
+  border-color: #29b691;
+}
+/* END OF EXPLORE BUTTON SECTION */
+
+.top {
+  text-decoration: none;
+  font-family: sans-serif;
+  border: solid #29b691 1px;
+  border-radius: 14px;
+  --offset: 100px; 
+  margin-top: calc(100vh + var(--offset));
+  position: sticky;
+  text-align: center;
+  margin-left: 14px;
+  bottom: 14px; 
+
+  background-color: #29b691;
+  color: white;
+  padding: 14px 14px;
+  transition: 0.3s;
+}
+
+.top:hover{
+  background-color:#ffffff;
+  color: #29b691;
+  border: solid #29b691 1px;
+}
+
